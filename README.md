@@ -72,7 +72,6 @@ Abre http://localhost:3000.
 ## Decisiones técnicas
 - **Monorepo con npm workspaces**: la app web y la extensión comparten el mismo esquema y tipos sin publicar paquetes.
 - **Tabla `StatusEvent`**: en lugar de guardar solo la fase actual, se registra cada cambio. Así las estadísticas (tasa de respuesta, tiempos) salen de datos reales.
-- _(Ir añadiendo aquí lo que fue difícil y cómo lo resolviste: es lo que te preguntarán en la entrevista.)_
 
 ## Roadmap
 Ver [ROADMAP.md](ROADMAP.md).
