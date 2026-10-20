@@ -2,52 +2,32 @@
 .env
 .env.*
 !.env.example
-*.pem
-*.key
-secrets/
 
-# ── Node / TypeScript ──
+# ── Dependencias ──
 node_modules/
+
+# ── Builds y código generado ──
 .next/
 out/
-dist/
 build/
-coverage/
-.turbo/
+generated/
 *.tsbuildinfo
+next-env.d.ts
+
+# ── Tests ──
+coverage/
+test-results/
+playwright-report/
+
+# ── Logs ──
 npm-debug.log*
-.pnpm-store/
 
-# ── Java / Kotlin ──
-target/
-.gradle/
-*.class
-*.jar
-!gradle/wrapper/gradle-wrapper.jar
+# ── Despliegue ──
+.vercel/
 
-# ── Go ──
-bin/
-*.exe
-*.test
-*.out
-
-# ── C# / .NET ──
-[Bb]in/
-[Oo]bj/
-
-# ── Bases de datos locales y dumps ──
-*.sqlite
-*.db
-*.dump
-*.sql.gz
-
-# ── IDE y sistema operativo ──
+# ── Editor y sistema operativo ──
 .idea/
 .vscode/*
 !.vscode/extensions.json
-*.iml
 .DS_Store
 Thumbs.db
-
-# ── Código generado ──
-generated/
