@@ -42,7 +42,7 @@ flowchart LR
 jobtrail/
 ├── apps/
 │   ├── web/          # Aplicación Next.js
-│   └── extension/    # Extensión de navegador (semana 3)
+│   └── extension/    # Extensión de navegador (soon)
 └── packages/
     └── db/           # Esquema Prisma, migraciones y cliente compartido
 ```
