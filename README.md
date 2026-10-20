@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
-**🔗 Demo en vivo:** _próximamente_ &nbsp;·&nbsp; **📹 Vídeo (1 min):** _próximamente_
+**🔗 Demo en vivo:** _próximamente_ &nbsp;·&nbsp; 
 
 <!-- Sustituir por un GIF de la app en cuanto exista: docs/demo.gif -->
 
@@ -78,4 +78,4 @@ Abre http://localhost:3000.
 Ver [ROADMAP.md](ROADMAP.md).
 
 ## Autor
-**Mario González** · [LinkedIn](https://linkedin.com/in/...) · [GitHub](https://github.com/gzlzz)
+**Mario González** · [GitHub](https://github.com/gzlzz)
