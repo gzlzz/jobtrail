@@ -1,0 +1,53 @@
+# ── Secretos y configuración local (NUNCA subir) ──
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ── Node / TypeScript ──
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+.pnpm-store/
+
+# ── Java / Kotlin ──
+target/
+.gradle/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ── Go ──
+bin/
+*.exe
+*.test
+*.out
+
+# ── C# / .NET ──
+[Bb]in/
+[Oo]bj/
+
+# ── Bases de datos locales y dumps ──
+*.sqlite
+*.db
+*.dump
+*.sql.gz
+
+# ── IDE y sistema operativo ──
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+Thumbs.db
+
+# ── Código generado ──
+generated/
