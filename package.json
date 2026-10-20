@@ -2,13 +2,17 @@
   "name": "jobtrail",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "dev": "npm run dev -w @jobtrail/web",
-    "build": "npm run build -w @jobtrail/web",
+    "build": "npm run generate -w @jobtrail/db && npm run build -w @jobtrail/web",
     "lint": "npm run lint -w @jobtrail/web",
-    "typecheck": "npm run typecheck -w @jobtrail/web"
+    "typecheck": "npm run generate -w @jobtrail/db && npm run typecheck -w @jobtrail/web",
+    "db:migrate": "npm run migrate -w @jobtrail/db",
+    "db:seed": "npm run seed -w @jobtrail/db",
+    "db:studio": "npm run studio -w @jobtrail/db"
   },
   "engines": {
     "node": ">=20"
