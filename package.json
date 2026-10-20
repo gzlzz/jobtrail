@@ -1,0 +1,16 @@
+{
+  "name": "jobtrail",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @jobtrail/web",
+    "build": "npm run build -w @jobtrail/web",
+    "lint": "npm run lint -w @jobtrail/web",
+    "typecheck": "npm run typecheck -w @jobtrail/web"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
